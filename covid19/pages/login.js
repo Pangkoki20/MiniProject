@@ -25,8 +25,8 @@ export default function login() {
                                 <div className={styles.textRememberMe}>
                                     <input type="checkbox"
                                         name="RememberMe"
-                                        onChange={(e) => setRememberme(e.target.value)}
-                                    />Remember me</div>
+                                    // onChange={(e) => setRememberme(e.target.value)}
+                                    /> Remember me</div>
 
 
                                 <br></br>

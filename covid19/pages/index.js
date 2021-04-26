@@ -17,16 +17,18 @@ export default function Home() {
           <Link href="/Contact
           "><a> ติดต่อเรา </a></Link>
         </div>
-
         <div>
           <Image
-            src="/appdoctor.png"
-            alt="Picture of the author"
+            className={styles.imgHome}
+            src="/Home.png"
+            alt="Home"
             width={780}
             height={400}
           />
         </div>
+
       </Container>
+
     </div >
   )
 }

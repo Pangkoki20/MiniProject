@@ -10,16 +10,9 @@ export default function Home() {
     <div>
       <Navbar />
       <Container>
-        <div className={styles.navMessage}>
-          <Link href="/"><a> หน้าแรก </a></Link> |
-          <Link href="/Messge"><a> ข่าวสาร </a></Link> |
-          <Link href="/SelfDefense"><a> การป้องกันตนเอง </a></Link>  |
-          <Link href="/Contact
-          "><a> ติดต่อเรา </a></Link>
-        </div>
-        <div>
+        <div className={styles.imgHome}>
           <Image
-            className={styles.imgHome}
+
             src="/Home.png"
             alt="Home"
             width={780}
@@ -28,7 +21,6 @@ export default function Home() {
         </div>
 
       </Container>
-
     </div >
   )
 }

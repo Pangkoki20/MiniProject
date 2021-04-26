@@ -12,8 +12,9 @@ const Navbar = () => {
                     <a className="navbar-brand" href="/">
                         การป้องกันตนเอง ห่างไกล Covid 19</a>
                     <div className="p-s">
-                        <Button href="/login" color="primary" size="sm">หน้าแรก</Button>
-                        <Button href="/login" color="primary" size="sm">ติดต่อเรา</Button>
+                        <Button href="/" color="primary" size="sm">หน้าแรก</Button>
+                        <Button href="/SelfDefense" color="primary" size="sm">การป้องกันตนเอง</Button>
+                        <Button href="/Contact" color="primary" size="sm">ติดต่อเรา</Button>
                         <Button href="/login" color="primary" size="sm">เข้าสู่ระบบ</Button>
                     </div>
                 </div>

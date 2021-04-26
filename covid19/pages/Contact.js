@@ -10,12 +10,16 @@ export default function Contact() {
         <div>
             <Navbar />
             <Container>
-                <div className={styles.navMessage}>
-                    <Link href="/"><a> หน้าแรก </a></Link> |
-                    <Link href="/Messge"><a> ข่าวสาร </a></Link> |
-                    <Link href="/SelfDefense"><a> การป้องกันตนเอง </a></Link>  |
-                    <Link href="/Contact"><a> ติดต่อเรา </a></Link>
+                <div className={styles.imgContact}>
+                    <Image
+
+                        src="/Contact.png"
+                        alt="Contact"
+                        width={780}
+                        height={400}
+                    />
                 </div>
+
             </Container>
         </div >
     )

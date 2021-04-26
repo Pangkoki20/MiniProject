@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Navbar from '../pages/Navbar'
+import Navbar from '../components/Navbar'
 import styles from '../styles/Home.module.css'
 import { Col, Row, Button, Form, FormGroup, Label, Input, Container, Nav, NavItem, NavLink } from 'reactstrap';
 
@@ -14,10 +14,18 @@ export default function Home() {
           <Link href="/"><a> หน้าแรก </a></Link> |
           <Link href="/Messge"><a> ข่าวสาร </a></Link> |
           <Link href="/SelfDefense"><a> การป้องกันตนเอง </a></Link>  |
-          <Link href="/Contact"><a> ติดต่อเรา </a></Link>
+          <Link href="/Contact
+          "><a> ติดต่อเรา </a></Link>
         </div>
 
-
+        <div>
+          <Image
+            src="/appdoctor.png"
+            alt="Picture of the author"
+            width={780}
+            height={400}
+          />
+        </div>
       </Container>
     </div >
   )

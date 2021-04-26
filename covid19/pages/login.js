@@ -28,16 +28,10 @@ export default function login() {
                                         onChange={(e) => setRememberme(e.target.value)}
                                     />Remember me</div>
 
-                                <div className={styles.textOr}>or</div>
-                                <div className={styles.textLogSo}> Login with your social media account</div>
-                                <p className="message"></p>
-                                <Button className={styles.btloginpsu} onClick={() => {
-                                    sendData()
-                                }} style={{ width: "100%", marginTop: "50px" }}>Login With Facebook</Button>
+
                                 <br></br>
                                 <Button className={styles.btRegister} onClick={() => {
-                                    sendData()
-                                }} style={{ width: "100%", marginTop: "50px" }}>ลงทะเบียน</Button>
+                                }} style={{ width: "100%", marginTop: "50px" }}><b>ลงทะเบียน</b></Button>
                                 <br></br>
 
                             </FormGroup>

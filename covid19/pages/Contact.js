@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import Navbar from '../pages/Navbar'
+import Navbar from '../components/Navbar'
 import styles from '../styles/Home.module.css'
 import { Col, Row, Button, Form, FormGroup, Label, Input, Container, Nav, NavItem, NavLink } from 'reactstrap';
 

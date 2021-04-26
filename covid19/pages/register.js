@@ -36,10 +36,7 @@ function Register() {
 
                                 <div className={styles.textOr}>or</div>
                                 <div className={styles.textLogSo}> Login with your social media account</div>
-                                <p className="message"></p>
-                                <Button className={styles.btloginpsu} onClick={() => {
-                                    sendData()
-                                }} style={{ width: "100%", marginTop: "50px" }}>Login With Facebook</Button>
+
 
                             </FormGroup>
 

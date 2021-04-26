@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import styles from '../styles/Home.module.css'
-import { Col, Row, Button, Form, FormGroup, Label, Input, Container, Nav, NavItem, NavLink } from 'reactstrap';
+import { Col, Row, Container, Alert } from 'reactstrap';
 
 
 export default function SelfDefense() {
@@ -10,8 +10,6 @@ export default function SelfDefense() {
         <div>
             <Navbar />
             <Container>
-
-
                 <div className={styles.textSelfDefense}>วิธีการป้องกันตนเอง</div>
                 <div className={styles.formImgSelfDefense}>
                     <Row>
@@ -22,6 +20,11 @@ export default function SelfDefense() {
                                 width={300}
                                 height={270}
                             />
+                            <div className={styles.textDistancing}>
+                                <Alert color="info" >
+                                    <b>การเว้นระยะห่างทางสังคม</b>
+                                </Alert>
+                            </div>
                         </Col>
                         <Col xs="6" sm="4" className={styles.imgMask}>
                             <Image
@@ -30,6 +33,11 @@ export default function SelfDefense() {
                                 width={300}
                                 height={270}
                             />
+                            <div className={styles.textDistancing}>
+                                <Alert color="info" >
+                                    <b>การสวมใส่หน้ากากอนามัย</b>
+                                </Alert>
+                            </div>
                         </Col>
                         <Col xs="6" sm="4" className={styles.imgHand}>
                             <Image
@@ -38,28 +46,13 @@ export default function SelfDefense() {
                                 width={300}
                                 height={270}
                             />
+                            <div className={styles.textDistancing}>
+                                <Alert color="info" >
+                                    <b>การล้างมือทำความสะอาด</b>
+                                </Alert>
+                            </div>
                         </Col>
                     </Row>
-                    {/* <Row>
-                    <Col xs="6" sm="4">
-                        <Image
-                            src="/Testing.png"
-                            alt="Testing"
-                            width={300}
-                            height={270}
-                            right={200}
-                        />
-                    </Col>
-                    <Col xs="6" sm="4">
-                        <Image
-                            src="/Thai Chana.png"
-                            alt="ThaiChana"
-                            width={300}
-                            height={270}
-
-                        />
-                    </Col>
-                </Row> */}
 
                 </div>
             </Container>

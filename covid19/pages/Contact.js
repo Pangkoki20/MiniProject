@@ -10,6 +10,7 @@ export default function Contact() {
         <div>
             <Navbar />
             <Container>
+                <div className={styles.textContact}>ติดต่อเรา</div>
                 <div className={styles.imgContact}>
                     <Image
 

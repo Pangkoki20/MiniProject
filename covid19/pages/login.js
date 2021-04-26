@@ -20,18 +20,18 @@ export default function login() {
                                 <div>
                                     <Input className={styles.ip1} type="password" name="password" placeholder="Password" />
                                 </div>
-                                <Button className={styles.btlogin} style={{ width: "100%", marginTop: "50px" }}
-                                ><b>เข้าสู่ระบบ</b></Button>
                                 <div className={styles.textRememberMe}>
                                     <input type="checkbox"
                                         name="RememberMe"
                                     // onChange={(e) => setRememberme(e.target.value)}
                                     /> Remember me</div>
-
-
+                                <Button className={styles.btlogin} style={{ width: "100%", marginTop: "50px" }}
+                                ><b>เข้าสู่ระบบ</b></Button>
                                 <br></br>
-                                <Button className={styles.btRegister} onClick={() => {
-                                }} style={{ width: "100%", marginTop: "50px" }}><b>ลงทะเบียน</b></Button>
+                                <Button className={styles.btloginAdmin} style={{ width: "100%", marginTop: "50px" }}
+                                ><b>สำหรับ Admin</b></Button>
+                                <br></br>
+                                <Button className={styles.btRegister} href="/register" style={{ width: "100%", marginTop: "50px" }}><b>ลงทะเบียน</b></Button>
                                 <br></br>
 
                             </FormGroup>

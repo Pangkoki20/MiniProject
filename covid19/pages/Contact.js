@@ -13,10 +13,9 @@ export default function Contact() {
                 <div className={styles.textContact}>ติดต่อเรา</div>
                 <div className={styles.imgContact}>
                     <Image
-
                         src="/Contact.png"
                         alt="Contact"
-                        width={780}
+                        width={980}
                         height={400}
                     />
                 </div>

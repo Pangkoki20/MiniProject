@@ -5,7 +5,6 @@ import { Col, Row, Button, Form, FormGroup, Label, Input, Container } from 'reac
 
 function Register() {
     return (
-
         <div>
             <Container>
                 <Form>
@@ -33,13 +32,7 @@ function Register() {
                                 <Button className={styles.btRegister2} style={{ width: "100%", marginTop: "50px" }}
                                 > สมัครสมาชิก</Button>
                                 <p className="message"></p>
-
-                                <div className={styles.textOr}>or</div>
-                                <div className={styles.textLogSo}> Login with your social media account</div>
-
-
                             </FormGroup>
-
                         </Col>
                     </Row>
                 </Form>

@@ -3,6 +3,21 @@
 @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+.header{
+  font-family: 'Kanit', sans-serif;
+  font-size: 20px;
+  margin-left: 10px;
+}
+.navHome{
+  margin-top: 5px;
+  text-align:right;
+  font-family: 'Kanit', sans-serif;
+  margin-right:50px;
+}
+.navMessage{
+  text-align: center;
+  margin-top: 50px;
+}
 
 .textHead {
   color: rgb(0, 9, 92);
@@ -13,11 +28,13 @@
   margin-top: 150px;
   margin-bottom: 30px;
   font-family: 'Kanit', sans-serif;}
-.textHeadRegister{
+
+  .textHeadRegister{
   font-family: 'Prompt', sans-serif;  
   font-size: 50px;
   margin-top: 80px;
 }
+
 .ip1 {
   width: 400px;
   margin-top: 10px;
@@ -46,13 +63,22 @@
   font-family: 'Roboto Condensed', sans-serif;
 }
 .btlogin{
-   color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   background-color: #90e0ef;
   margin-top: 20px !important;
   width: 400px !important;
   height: 40px !important;
-  border: none;
+  border: #90e0ef;
   font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+}
+.btloginNav{
+  color: rgb(0, 0, 0);
+  background-color: #90e0ef;
+  margin-top: 20px !important;
+  width: 100px !important;
+  height: 20px !important;
+  font-size: 15px;
   font-family: 'Kanit', sans-serif;
 }
 .textRememberMe{

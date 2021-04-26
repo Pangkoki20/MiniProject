@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-
+import Navbar from '../pages/Navbar'
 import styles from '../styles/Home.module.css'
 import { Col, Row, Button, Form, FormGroup, Label, Input, Container, Nav, NavItem, NavLink } from 'reactstrap';
 
@@ -8,27 +8,18 @@ import { Col, Row, Button, Form, FormGroup, Label, Input, Container, Nav, NavIte
 export default function Home() {
   return (
     <div>
+      <Navbar />
       <Container>
-        <div>
-          <li>
-            <Link href="/">
-              <a>Home</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              <a>About Us</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog/hello-world">
-              <a>Blog Post</a>
-            </Link>
-          </li>
+        <div className={styles.navMessage}>
+          <Link href="/"><a> หน้าแรก </a></Link> |
+          <Link href="/showStudents"><a> ข่าวสาร </a></Link> |
+          <Link href="/register"><a> การป้องกันตนเอง </a></Link>  |
+          <Link href="/login"><a> ติดต่อเรา </a></Link>
         </div>
+
         <div>
           <Image
-            src="/Image/Vaccine.png"
+            src="/Vaccine.png"
             alt="Picture of the author"
             width={500}
             height={500}

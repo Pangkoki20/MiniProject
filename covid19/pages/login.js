@@ -35,6 +35,10 @@ export default function login() {
                                     sendData()
                                 }} style={{ width: "100%", marginTop: "50px" }}>Login With Facebook</Button>
                                 <br></br>
+                                <Button className={styles.btRegister} onClick={() => {
+                                    sendData()
+                                }} style={{ width: "100%", marginTop: "50px" }}>ลงทะเบียน</Button>
+                                <br></br>
 
                             </FormGroup>
 

@@ -12,19 +12,12 @@ export default function Home() {
       <Container>
         <div className={styles.navMessage}>
           <Link href="/"><a> หน้าแรก </a></Link> |
-          <Link href="/showStudents"><a> ข่าวสาร </a></Link> |
-          <Link href="/register"><a> การป้องกันตนเอง </a></Link>  |
-          <Link href="/login"><a> ติดต่อเรา </a></Link>
+          <Link href="/Messge"><a> ข่าวสาร </a></Link> |
+          <Link href="/SelfDefense"><a> การป้องกันตนเอง </a></Link>  |
+          <Link href="/Contact"><a> ติดต่อเรา </a></Link>
         </div>
 
-        <div>
-          <Image
-            src="/Vaccine.png"
-            alt="Picture of the author"
-            width={500}
-            height={500}
-          />
-        </div>
+
       </Container>
     </div >
   )

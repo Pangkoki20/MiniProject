@@ -4,19 +4,19 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Col, Row, Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
 
+const URL = `http://localhost:4001/api/`
 
-function Register() {
+export default function Register() {
     const [username, setUsername] = useState('')
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
 
     const register = async (req, res) => {
         try {
-            let result = await axios.post(`${config.URL}/register`,
+            let result = await axios.post(`${URL}/register`,
                 { username, email, password })
             console.log('result: ', result)
             console.log('result.data:  ', result.data)
-            setStatus(result.data.message)
         }
         catch (e) {
             console.log(e)
@@ -56,7 +56,8 @@ function Register() {
 
                                 <div>{registerForm()}</div>
                                 <Button className={styles.btRegister2}
-                                    style={{ width: "100%", marginTop: "50px" }}> สมัครสมาชิก</Button>
+                                    style={{ width: "100%", marginTop: "50px" }}
+                                    onClick={register}> สมัครสมาชิก</Button>
                             </FormGroup>
                         </Col>
                     </Row>
@@ -65,4 +66,3 @@ function Register() {
         </div>
     )
 }
-export default Register;

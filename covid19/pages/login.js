@@ -4,6 +4,8 @@ import axios from 'axios'
 import styles from '../styles/Home.module.css'
 import { Col, Row, Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
 
+const URL = `http://localhost:4001/api/`
+
 export default function login() {
     const [username, setUsername] = useState('')
     const [password, setPassword] = useState('')
@@ -11,16 +13,15 @@ export default function login() {
 
     const login = async (req, res) => {
         try {
-            let result = await axios.post(`${config.URL}/login`,
+            let result = await axios.post(`${URL}/login`,
                 { username, password, rememberme },
                 { withCredentials: true })
             console.log('result: ', result)
             console.log('result.data:  ', result.data)
-            setStatus(result.status + ': ' + result.data.user.username)
         }
         catch (e) {
             console.log('error: ', JSON.stringify(e.response))
-            setStatus(JSON.stringify(e.response).substring(0, 80) + "...")
+            setStatus(JSON.stringify(e.response).substring(0, 4001) + "...")
         }
     }
     const loginForm = () => (

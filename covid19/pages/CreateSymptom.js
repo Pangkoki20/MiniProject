@@ -5,7 +5,6 @@ import styles from '../styles/Home.module.css'
 import { Col, Row, Container, FormGroup, CustomInput, Label, Button, Input } from 'reactstrap';
 import { useState } from 'react'
 
-
 // export default function CreateSymptom() {
 //     return (
 //         <div>

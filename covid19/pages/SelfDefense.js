@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
 import styles from '../styles/Home.module.css'
-import { Col, Row, Container, Alert } from 'reactstrap';
+import { Col, Row, Container, Alert, Input, Label } from 'reactstrap';
 
 
 export default function SelfDefense() {
@@ -52,6 +52,7 @@ export default function SelfDefense() {
                                 </Alert>
                             </div>
                         </Col>
+
                     </Row>
 
                 </div>

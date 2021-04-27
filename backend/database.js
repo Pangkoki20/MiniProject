@@ -7,7 +7,6 @@ let users = {
     ]
 }
 
-
 const SECRET = 'your_jwt_secret'
 const NOT_FOUND = -1
 

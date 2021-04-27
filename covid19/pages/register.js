@@ -1,9 +1,48 @@
+import { useState } from 'react'
+import axios from 'axios'
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Col, Row, Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
 
 
 function Register() {
+    const [username, setUsername] = useState('')
+    const [email, setEmail] = useState('')
+    const [password, setPassword] = useState('')
+
+    const register = async (req, res) => {
+        try {
+            let result = await axios.post(`${config.URL}/register`,
+                { username, email, password })
+            console.log('result: ', result)
+            console.log('result.data:  ', result.data)
+            setStatus(result.data.message)
+        }
+        catch (e) {
+            console.log(e)
+        }
+
+    }
+
+
+    const registerForm = () => (
+        <div className={styles.gridContainer}>
+            <div>
+                <Input className={styles.ip1} type="text"
+                    name="username" placeholder="Username"
+                    onChange={(e) => setUsername(e.target.value)} />
+            </div>
+            <div>
+                <Input className={styles.ip1} type="text" name="email" placeholder="E-mail"
+                    onChange={(e) => setEmail(e.target.value)} />
+            </div>
+            <div>
+                <Input className={styles.ip1} type="password" name="password" placeholder="Password"
+                    onChange={(e) => setPassword(e.target.value)} />
+            </div>
+
+        </div>
+    )
     return (
         <div>
             <Container>
@@ -12,26 +51,12 @@ function Register() {
                         <Col>
                             <FormGroup align="center">
                                 <div>
-                                    <h2 className={styles.textHeadRegister}>ลงทะเบียน</h2>
+                                    <div className={styles.textHeadRegister}>ลงทะเบียน</div>
                                 </div>
-                                <div>
-                                    <Input className={styles.ip1} type="text" name="username" placeholder="Name - Surname" />
-                                </div>
-                                <div>
-                                    <Input className={styles.ip1} type="password" name="password" placeholder="Password" />
-                                </div>
-                                <div>
-                                    <Input className={styles.ip1} type="text" name="email" placeholder="E-mail" />
-                                </div>
-                                <div>
-                                    <Input className={styles.ip1} type="password" name="password" placeholder="Password" />
-                                </div>
-                                <div>
-                                    <Input className={styles.ip1} type="password" name="password" placeholder="Password" />
-                                </div>
-                                <Button className={styles.btRegister2} style={{ width: "100%", marginTop: "50px" }}
-                                > สมัครสมาชิก</Button>
-                                <p className="message"></p>
+
+                                <div>{registerForm()}</div>
+                                <Button className={styles.btRegister2}
+                                    style={{ width: "100%", marginTop: "50px" }}> สมัครสมาชิก</Button>
                             </FormGroup>
                         </Col>
                     </Row>

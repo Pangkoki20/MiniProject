@@ -101,7 +101,7 @@ const CreateSymptom = () => {
                 <Col sm="12" md={{ size: 6, offset: 3 }}>
                     <div className={styles.textCreateSymptom}>
                         <Label for="exampleAddress">การป้องกันตนเอง</Label>
-                        <Input type="text" name="addData" placeholder="" onChange={(e) => (setSelfdefense(e.target.value))} />
+                        <Input type="text" name="addData" placeholder="ป้อนการป้องกันตนเอง ...." onChange={(e) => (setSelfdefense(e.target.value))} />
 
                         <div className={styles.btData}>
                             <Button className={styles.btTextData} color="success" onClick={() => addData(selfdefense)}>เพิ่มข้อมูล</Button>

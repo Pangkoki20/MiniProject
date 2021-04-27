@@ -57,8 +57,7 @@ const CreateSymptom = () => {
     const renderDatas = () => {
         if (datas !== null)
             return datas.map((data, index) => (
-                <li key={index} className={styles.formData}>
-                    {data.id}
+                <div key={index} className={styles.formData}>
                     {(idEdit !== data.id) ?
                         data.selfdefense :
                         (<input type="text"
@@ -71,7 +70,7 @@ const CreateSymptom = () => {
                         <Button className={styles.btTextData} color="primary" size="sm" onClick={() => editData(data.id)}>แก้ไขข้อมูล</Button>
                         <Button className={styles.btTextData} color="danger" size="sm" onClick={() => deleteData(data.id)}>ลบข้อมูล</Button>
                     </div>
-                </li>))
+                </div>))
     }
     const addData = (selfdefense) => {
         setDatas([...datas, { id: datas[datas.length - 1].id + 1, selfdefense }])

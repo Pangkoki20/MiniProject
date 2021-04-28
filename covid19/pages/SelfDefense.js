@@ -41,7 +41,7 @@ export default function BSelfDefenseook() {
                                 {dataList.map((val, key) => {
                                     return (
                                         <div className={styles.card}>
-                                            <div className="card-body text-left">
+                                            <div className="card-body">
                                                 <p className="card-text">{val.title}</p>
                                             </div>
                                         </div>

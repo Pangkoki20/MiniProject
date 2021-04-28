@@ -24,14 +24,14 @@
 }
 
 .textHead {
-  color: rgb(0, 9, 92);
-  letter-spacing: 3px;
-  font-size: 50px;
-  font-weight: bolder;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 30px;
-  font-family: 'Kodchasan', sans-serif;
+  color: rgb(0, 9, 92); /* */
+  letter-spacing: 3px; /* */
+  font-size: 50px; /* */
+  font-weight: bolder; /* */
+  text-align: center; /* */
+  margin-top: 100px; /* */
+  margin-bottom: 30px; /* */
+  font-family: 'Kodchasan', sans-serif; /* */
 
 }
 .textDistancing{
@@ -47,15 +47,15 @@
 }
 
 .ip1 {
-  width: 400px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-size: 20px;
-  font-family: 'Oswald', sans-serif;
+  width: 400px; /* */
+  margin-top: 10px; /* */
+  margin-bottom: 10px; /* */
+  font-size: 20px; /* */
+  font-family: 'Oswald', sans-serif; /* */
 }
 .btRegister{
-  background-color:  #2ec4b6;
-  margin-top: 30px !important;
+  background-color:  #2ec4b6; /**/
+  margin-top: 30px !important; /**/
   width: 400px !important;
   height: 40px !important;
   border: none;
@@ -104,21 +104,16 @@
   font-family: 'Kanit', sans-serif;
 }
 .textRememberMe{
-  padding-right: 270px;
-  font-family: 'Kanit', sans-serif;
-
-}
-.textOr{
-  margin-top: 10px;
-  font-family: 'Kanit', sans-serif;
+  padding-right: 270px; /**/
+  font-family: 'Kanit', sans-serif; /**/
 }
 .imgHome{
-  margin-top: 100px;
-  text-align: center;
+  margin-top: 100px; /*การกำหนดระยะห่างระหว่างขอบด้านบน */
+  text-align: center; /* การจัดข้อความไว้กึ่งกลาง */
 }
 .imgContact{
-  margin-top: 20px;
-  text-align: center;
+  margin-top: 20px; /*การกำหนดระยะห่างระหว่างขอบด้านบน */
+  text-align: center; /* การจัดรูปภาพไว้กึ่งกลาง */
 }
 .textSelfDefense{
   margin-top: 100px;
@@ -137,16 +132,16 @@
   font-family: 'Kanit', sans-serif;
 }
 .textCreateSymptom{
-  margin-top: 60px;
-  font-size: 25px;
-  text-align: center;
-  font-family: 'Kodchasan', sans-serif;
+  margin-top: 60px; /*การกำหนดระยะห่างระหว่างขอบด้านบน */
+  font-size: 25px; /*การกำหนดขนาดข้อความ */
+  text-align: center; /* การจัดข้อความไว้กึ่งกลาง */
+  font-family: 'Kodchasan', sans-serif; /*การกำหนดรูปแบบข้อความ*/
 }
 .btData{
-  margin-top: 20px;
-  font-size: 13px;
-  text-align: center;
-  font-family: 'Kanit', sans-serif; 
+  margin-top: 20px; /*การกำหนดระยะห่างระหว่างขอบด้านบน */
+  font-size: 13px; /*การกำหนดขนาดข้อความ */
+  text-align: center; /* การจัดข้อความไว้กึ่งกลาง */
+  font-family: 'Kanit', sans-serif; /*การกำหนดรูปแบบข้อความ*/
 }
 .formDataSet{
   display: flex;
@@ -158,16 +153,14 @@
   width: 80vw;
 }
 .formData{
-  display: flex;
-  flex-direction: column;
-  margin: 32px;
-  padding: 32px;
-  text-align: center;
-  border: 2px solid #b8b8ff;
-  font-size: 13px;
-  font-family: 'Kanit', sans-serif; 
-  
-
+  display: flex; /*การกำหนด display เป็น Flex*/
+  flex-direction: column; /*การกำหนดทิศทางในลักษณะ column*/
+  margin: 32px; /*การกำหนดระยะห่างบน ล่าง ซ้าย ขวา*/
+  padding: 32px; /*การกำหนดระยะห่างระหว่างขอบของด้านในกับข้อความที่อยู่ในกรอบ*/
+  text-align: center; /* การจัดข้อความไว้กึ่งกลาง */
+  border: 2px solid #b8b8ff; /*การกำหนดขนาดและสีของเส้นกรอบ*/
+  font-size: 13px; /*การกำหนดขนาดข้อความ */
+  font-family: 'Kanit', sans-serif; /*การกำหนดรูปแบบข้อความ*/
 }
 .cardData{
   display: flex;
@@ -178,16 +171,16 @@
    font-size: 1.4rem;
 }
 .btTextData{
-  flex-direction: row;
-  justify-content: center;
-  font-size: 13px;
-  text-align: center;
-  font-family: 'Kanit', sans-serif; 
+  flex-direction: row; /*การกำหนดการจัดเรียง Flex Item ภายใน Flex Container */
+  justify-content: center; /*การกำหนดการจัดเรียงทิศทางตามแกนหลัก*/
+  font-size: 13px; /*การกำหนดขนาดข้อความ */
+  text-align: center; /* การจัดข้อความไว้กึ่งกลาง */
+  font-family: 'Kanit', sans-serif; /*การกำหนดรูปแบบข้อความ*/
 }
 .textContact{
-   margin-top: 100px;
-  font-size: 35px;
-  text-align: center;
+   margin-top: 100px; /*การกำหนดระยะห่างระหว่างขอบด้านบน */
+  font-size: 35px; /*การกำหนดขนาดข้อความ */
+  text-align: center; /* การจัดข้อความไว้กึ่งกลาง */
   font-family: 'Kodchasan', sans-serif;
 }
 .formImgSelfDefense{

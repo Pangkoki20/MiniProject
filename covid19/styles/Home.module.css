@@ -24,75 +24,70 @@
 }
 
 .textHead {
-  color: rgb(0, 9, 92); /* */
-  letter-spacing: 3px; /* */
-  font-size: 50px; /* */
-  font-weight: bolder; /* */
-  text-align: center; /* */
-  margin-top: 100px; /* */
-  margin-bottom: 30px; /* */
-  font-family: 'Kodchasan', sans-serif; /* */
+  color: rgb(0, 9, 92); /*การกำหนดสีของข้อความ*/
+  font-size: 50px; /*การกำหนดขนาดข้อความ*/
+  text-align: center; /* การจัดข้อความไว้กึ่งกลาง */
+  margin-top: 100px; /*การกำหนดระยะห่างระหว่างขอบด้านบน*/
+  margin-bottom: 30px; /*การกำหนดระยะห่างระหว่างขอบด้านล่าง*/
+  font-family: 'Kodchasan', sans-serif;  /*การกำหนดรูปแบบข้อความ*/
 
 }
 .textDistancing{
-  text-align: center !important;
-  font-family: 'Kanit', sans-serif !important;
-  font-size: 18px;
-
+  text-align: center ; /*การจัดข้อความไว้กึ่งกลาง*/
+  font-size: 16px; /*การกำหนดขนาดข้อความ*/
+  font-family: 'Kanit', sans-serif ; /*การกำหนดรูปแบบข้อความ*/
 }
 .textHeadRegister{
-  font-family: 'Kodchasan', sans-serif;
-  font-size: 50px;
-  margin-top: 100px;
+  font-size: 50px;  /*การกำหนดขนาดข้อความ*/
+  margin-top: 100px; /*การกำหนดระยะห่างระหว่างขอบด้านบน*/
+  font-family: 'Kodchasan', sans-serif; /*การกำหนดรูปแบบข้อความ*/
 }
-
 .ip1 {
-  width: 400px; /* */
-  margin-top: 10px; /* */
-  margin-bottom: 10px; /* */
-  font-size: 20px; /* */
-  font-family: 'Oswald', sans-serif; /* */
+  width: 400px; /*การกำหนดความกว้าง*/
+  margin-top: 10px; /*การกำหนดระยะห่างระหว่างขอบด้านบน*/
+  margin-bottom: 10px; /*การกำหนดระยะห่างระหว่างขอบด้านล่าง*/
+  font-size: 20px; /*การกำหนดขนาดข้อความ*/
+  font-family: 'Oswald', sans-serif;  /*การกำหนดรูปแบบข้อความ*/
 }
 .btRegister{
-  background-color:  #2ec4b6; /**/
-  margin-top: 30px !important; /**/
-  width: 400px !important;
-  height: 40px !important;
-  border: none;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  font-family: 'Kanit', sans-serif;
+  background-color:  #2ec4b6; /*การกำหนดสีพื้นหลัง*/
+  margin-top: 30px !important; /*การกำหนดระยะห่างระหว่างขอบด้านบน*/
+  width: 400px !important; /*การกำหนดความกว้าง*/
+  height: 40px !important; /*การกำหนดความสูง*/ 
+  border: none; /*การกำหนดเส้น*/
+  color: rgb(0, 0, 0); /*การกำหนดสีตัวอักษร*/
+  font-size: 20px; /*การกำหนดขนาดข้อความ*/
+  font-family: 'Kanit', sans-serif;  /*การกำหนดรูปแบบข้อความ*/
 }
 .btRegister2{
-  background-color: #2ec4b6;
-  margin-top: 20px !important;
-  width: 400px !important;
-  height: 40px !important;
-  border: none;
-  color: rgb(0, 0, 0);
-  font-size: 20px;
-  font-family: 'Kanit', sans-serif;
+  background-color: #2ec4b6; /*กำหนดสีพื้นหลัง*/
+  margin-top: 20px !important; /*การกำหนดระยะห่างระหว่างขอบด้านบน*/
+  width: 400px !important;  /*การกำหนดความกว้าง*/
+  height: 40px !important;  /*การกำหนดความสูง*/
+  border: none; /*กำหนดรูปแบบเส้น*/
+  color: rgb(0, 0, 0); /*กำหนดสีตัวอักษร*/
+  font-size: 20px; /*การกำหนดขนาดข้อความ*/
+  font-family: 'Kanit', sans-serif;  /*การกำหนดรูปแบบข้อความ*/
 }
-
 .btlogin{
-  color: rgb(0, 0, 0);
-  background-color: #90e0ef;
-  margin-top: 20px !important;
-  width: 400px !important;
-  height: 40px !important;
-  border: #90e0ef;
-  font-size: 20px;
-  font-family: 'Kanit', sans-serif;
+  color: rgb(0, 0, 0); /*การกำหนดสีตัวอักษร*/
+  background-color: #90e0ef; /*การกำหนดสีพื้นหลัง*/
+  margin-top: 20px !important; /*การกำหนดระยะห่างระหว่างขอบด้านบน*/
+  width: 400px !important;/*การกำหนดความกว้าง*/
+  height: 40px !important;/*การกำหนดความสูง*/
+  border: #90e0ef; /*การกำหนดสีของเส้น*/
+  font-size: 20px; /*การกำหนดขนาดข้อความ*/
+  font-family: 'Kanit', sans-serif;  /*การกำหนดรูปแบบข้อความ*/
 }
 .btloginAdmin{
-  color: rgb(0, 0, 0);
-  background-color: #ffd60a;
-  margin-top: 20px !important;
-  width: 400px !important;
-  height: 40px !important;
+  color: rgb(0, 0, 0); /*การกำหนดสีตัวอักษร*/
+  background-color: #ffd60a; /*การกำหนดสีพื้นหลัง*/
+  margin-top: 20px !important; /*การกำหนดระยะห่างระหว่างขอบด้านบน*/
+  width: 400px !important; /*การกำหนดความกว้าง*/
+  height: 40px !important; /*การกำหนดความสูง*/
   border: #90e0ef;
-  font-size: 20px;
-  font-family: 'Kanit', sans-serif;
+  font-size: 20px; /*การกำหนดขนาดข้อความ*/
+  font-family: 'Kanit', sans-serif;  /*การกำหนดรูปแบบข้อความ*/
 }
 .btloginNav{
   color: rgb(0, 0, 0);
@@ -104,8 +99,8 @@
   font-family: 'Kanit', sans-serif;
 }
 .textRememberMe{
-  padding-right: 270px; /**/
-  font-family: 'Kanit', sans-serif; /**/
+  padding-right: 270px; /*การกำหนดระยะห่างระหว่างขอบด้านในซ้ายกับข้อความที่อยู่ในกรอบ*/
+  font-family: 'Kanit', sans-serif;  /*การกำหนดรูปแบบข้อความ*/
 }
 .imgHome{
   margin-top: 100px; /*การกำหนดระยะห่างระหว่างขอบด้านบน */
@@ -116,10 +111,10 @@
   text-align: center; /* การจัดรูปภาพไว้กึ่งกลาง */
 }
 .textSelfDefense{
-  margin-top: 100px;
-  font-size: 35px;
-  text-align: center;
-  font-family: 'Kodchasan', sans-serif;
+  margin-top: 100px;  /*การกำหนดระยะห่างระหว่างขอบด้านบน*/
+  font-size: 35px; /*การกำหนดขนาดข้อความ*/
+  text-align: center; /*การจัดข้อความไว้กึ่งกลาง*/
+  font-family: 'Kodchasan', sans-serif; /*การกำหนดรูปแบบข้อความ*/
 }
 .textChoosePic{
   margin-top: 40px;
@@ -170,6 +165,12 @@
    border: 2px solid #abc4ff;
    font-size: 1.4rem;
 }
+.cardSelfDefense{
+  margin-top: 15px; /*การกำหนดระยะห่างระหว่างขอบด้านบน*/
+  font-size: 16px; /*การกำหนดขนาดข้อความ*/
+  text-align: center; /*การจัดข้อความไว้กึ่งกลาง*/
+  font-family: 'Kanit', sans-serif ; /*การกำหนดรูปแบบข้อความ*/
+}
 .btTextData{
   flex-direction: row; /*การกำหนดการจัดเรียง Flex Item ภายใน Flex Container */
   justify-content: center; /*การกำหนดการจัดเรียงทิศทางตามแกนหลัก*/
@@ -182,9 +183,6 @@
   font-size: 35px; /*การกำหนดขนาดข้อความ */
   text-align: center; /* การจัดข้อความไว้กึ่งกลาง */
   font-family: 'Kodchasan', sans-serif;
-}
-.formImgSelfDefense{
-  margin-top: 15px;
 }
 .bt5:hover {
   color: rgb(87, 87, 87);

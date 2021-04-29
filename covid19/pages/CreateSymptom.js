@@ -68,24 +68,26 @@ export default function CreateSymptom() {
                                     <p className="card-text">{val.title}</p>
                                     <input type="text"
                                         name="selfdefense"
-                                        placeholder="Enter New Title"
+                                        placeholder="แก้ไขข้อมูลการป้องกันตนเอง ...."
                                         onChange={(e) => setNewTitle(e.target.value)}
                                     />
                                     <br />
-                                    <Button className={styles.btTextData} color="primary" size="sm"
-                                        onClick={() => updateBook(val.id)}>แก้ไขข้อมูล</Button>
-                                    <Button className={styles.btTextData} color="danger" size="sm"
-                                        onClick={() => deleteData(val.id)}>ลบข้อมูล</Button>
+                                    <Row xs="2">
+                                        <Col >
+                                            <Button className={styles.btTextData} color="primary" size="sm"
+                                                onClick={() => updateBook(val.id)}>แก้ไขข้อมูล</Button>
+                                        </Col>
+                                        <Col >
+                                            <Button className={styles.btTextData} color="danger" size="sm"
+                                                onClick={() => deleteData(val.id)}>ลบข้อมูล</Button>
+                                        </Col>
+                                    </Row>
                                 </div>
 
                             )
                         })
                         }
-
-
                     </div>
-
-
                 </Col>
             </Row>
         </Container>

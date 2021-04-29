@@ -49,8 +49,6 @@ export default function login() {
     const copyText = () => {
         navigator.clipboard.writeText(token)
     }
-
-
     return (
         <div>
             <Container>
@@ -72,10 +70,8 @@ export default function login() {
                                     style={{ width: "100%", marginTop: "50px" }}><b>ลงทะเบียน</b></Button>
                             </Form>
                         </FormGroup>
-
                     </Col>
                 </Row>
-
             </Container>
         </div>
     )
